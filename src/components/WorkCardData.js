@@ -2,8 +2,9 @@ import Weather from "../assets/weather11.jpeg"
 import Quiz from "../assets/quiz img.png"
 import Netflix from "../assets/netflix image.png"
 import Youtube from "../assets/youtube-logo.webp"
-import Todolist from "../assets/todolist.png"
+// import Todolist from "../assets/todolist.png"
 import TextImg from "../assets/texteditor.jpeg"
+import Chatimg from "../assets/chat image.png"
 
 const ProjectCardData = [
     {
@@ -12,6 +13,13 @@ const ProjectCardData = [
         text: "Tech-stack: Reactjs, NodeJs, MongoDB, Firebase. The frontend was built with Reactjs. Authentication being handled by Firebase. The backend was built with MongoDB,  Express and Nodejs.",
         view: "https://netflix-frontend-main.onrender.com/",
         source: "https://github.com/priyansh0202-coder/netflix-frontend-main.git"
+    },
+    {
+        imgsrc: Chatimg,
+        title: " Chat App",
+        text: "Tech-stack: Reactjs, Appwrite . The frontend was built with Reactjs. Authentication being handled by Appwrite. The backend was built with Appwrite Cloud. State management with useContext hook.",
+        view: "https://chat-application-tau-ten.vercel.app/",
+        source: "https://github.com/priyansh0202-coder/Chat-application.git"
     },
     // {
     //     imgsrc: Todolist,
