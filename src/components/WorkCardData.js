@@ -1,12 +1,27 @@
 import Weather from "../assets/weather11.jpeg"
 import Quiz from "../assets/quiz img.png"
 import Netflix from "../assets/netflix image.png"
-import Youtube from "../assets/youtube-logo.webp"
-// import Todolist from "../assets/todolist.png"
+import Streamify from "../assets/Streamify.png"
+import WorkManager from "../assets/work manager.png"
 import TextImg from "../assets/texteditor.jpeg"
 import Chatimg from "../assets/chat image.png"
 
 const ProjectCardData = [
+
+    {
+        imgsrc: WorkManager,
+        title: " Work Manager App",
+        text: "Tech-stack: Next.js, Reactjs, Tailwind CSS . This app was built with Next.js, Tailwind CSS, Framer motion and MongoDB..",
+        view: "https://task-nest-app-next-js.vercel.app/login",
+        source: "https://github.com/priyansh0202-coder/TaskNest---App---Next.js"
+    },
+    {
+        imgsrc: Streamify,
+        title: " Streamify App",
+        text: "Tech-stack: Reactjs, MaterialUi, Rapid Api V3. This app was built with Reactjs,  MaterialUi and RapidApi V3..",
+        view: "https://streamify-video-application.vercel.app/",
+        source: "https://github.com/priyansh0202-coder/Streamify-Video-Application"
+    },
     {
         imgsrc: Netflix,
         title: "Netflix App",
@@ -20,20 +35,6 @@ const ProjectCardData = [
         text: "Tech-stack: Reactjs, Appwrite . The frontend was built with Reactjs. Authentication being handled by Appwrite. The backend was built with Appwrite Cloud. State management with useContext hook.",
         view: "https://chat-application-tau-ten.vercel.app/",
         source: "https://github.com/priyansh0202-coder/Chat-application.git"
-    },
-    // {
-    //     imgsrc: Todolist,
-    //     title: " Todolist",
-    //     text: "Tech-stack: Reactjs, MaterialUi, NodeJs, Express, MySql, Jwt. The frontend was built with Reactjs & MaterialUi. The backend was built with Nodejs, Express. Database manage by MySql.",
-    //     view: "https://priyansh0202-coder.github.io/calculator/",
-    //     source: "https://github.com/priyansh0202-coder/calculator.git"
-    // },
-    {
-        imgsrc: Youtube,
-        title: "Youtube Clone",
-        text: "Tech-stack: Reactjs, MaterialUi, Rapid Api V3. This app was built with Reactjs,  MaterialUi and RapidApi V3..",
-        view: "https://project-youtube-clone-main-xi.vercel.app/",
-        source: "https://github.com/priyansh0202-coder/project_youtube_clone-main.git"
     },
     {
         imgsrc: Weather,
