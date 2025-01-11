@@ -28,7 +28,7 @@ const Footer = () => {
                 </div>
                 <div className="right">
                     <h4>About</h4>
-                    <p>A Full Stack Developer with a primary focus on React, Javascript, Node.js and MySQL.</p>
+                    <p>A Frontend Developer specializing in React, Next.js and JavaScript, with expertise in building responsive and user-friendly web interfaces..</p>
                     <div className="social">
                         <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem" }} />
                         <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem" }} />
